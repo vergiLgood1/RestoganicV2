@@ -20,7 +20,7 @@
                     </svg>
                 </button>
             </div>
-            <div class="hidden lg:flex lg:flex-1 lg:justify-end">
+            {{-- <div class="hidden lg:flex lg:flex-1 lg:justify-end">
                 <div class="hidden lg:flex lg:gap-x-12 lg:justify-center lg:items-center">
                     <a href="/" class="text-sm font-semibold leading-6 text-gray-900">Home</a>
                     <a href="/services" class="text-sm font-semibold leading-6 text-gray-900">Services</a>
@@ -31,7 +31,7 @@
                             <span aria-hidden="true">&rarr;</span>
                         </button></a>
                 </div>
-            </div>
+            </div> --}}
         </nav>
         <!-- Mobile menu, show/hide based on menu open state. -->
         <div x-show="isOpen" class="lg:hidden" role="dialog" aria-modal="true">
